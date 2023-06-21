@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/go-kart-krazy/static/css/main.b88bfd3c.css",
-    "main.js": "/go-kart-krazy/static/js/main.4b2f0cf0.js",
+    "main.css": "/go-kart-krazy/static/css/main.8951e5eb.css",
+    "main.js": "/go-kart-krazy/static/js/main.106afc2c.js",
     "static/media/blurry-gradient-haikei.svg": "/go-kart-krazy/static/media/blurry-gradient-haikei.1d2fca88973ebda7cfb4.svg",
     "index.html": "/go-kart-krazy/index.html",
-    "main.b88bfd3c.css.map": "/go-kart-krazy/static/css/main.b88bfd3c.css.map",
-    "main.4b2f0cf0.js.map": "/go-kart-krazy/static/js/main.4b2f0cf0.js.map"
+    "main.8951e5eb.css.map": "/go-kart-krazy/static/css/main.8951e5eb.css.map",
+    "main.106afc2c.js.map": "/go-kart-krazy/static/js/main.106afc2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88bfd3c.css",
-    "static/js/main.4b2f0cf0.js"
+    "static/css/main.8951e5eb.css",
+    "static/js/main.106afc2c.js"
   ]
 }
