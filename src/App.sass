@@ -1,0 +1,146 @@
+$layout-breakpoint-small: 768px
+
+*
+  margin: 0
+  padding: 0
+
+body
+  background-image: url( 'blurry-gradient-haikei.svg' )
+  background-repeat: no-repeat
+  background-size: cover
+
+a:link, a:visited
+  text-decoration: inherit
+  color: inherit
+  cursor: pointer
+
+@media (max-width: $layout-breakpoint-small)
+  .container
+    display: flex
+    flex-flow: column nowrap
+    min-height: 100vh
+
+    header
+      flex: 0
+      display: flex
+      flex-flow: row nowrap
+      justify-content: center
+      align-items: center
+      gap: 1rem
+      font-size: large
+      padding: 1rem
+      
+      span:nth-of-type(2)
+        display: none
+      
+      span:nth-of-type(3)
+        display: none
+    
+    .sub-header
+      flex: 0
+      display: flex
+      flex-flow: row nowrap
+      align-items: center
+      padding: 1rem
+
+      span
+        flex: 1
+        display: flex
+        justify-content: center
+      
+      i
+        font-size: 4rem
+    
+    .game
+      flex: 1
+      display: flex
+      flex-flow: column nowrap
+      justify-content: center
+      padding: 1rem
+
+      canvas
+        border-radius: 25px
+        box-shadow: 0rem 0rem 5rem 3.5rem orange
+    
+    footer
+      flex: 0
+      display: flex
+      flex-flow: row nowrap
+      justify-content: space-around
+      align-items: center
+      padding: 1rem
+      font-size: large
+      flex-shrink: 0
+
+      i
+        font-size: 4rem
+
+
+@media (min-width: $layout-breakpoint-small)
+  .container
+    display: flex
+    flex-flow: column nowrap
+    align-items: center
+    min-height: 100%
+
+    header
+      flex: 0
+      display: flex
+      flex-flow: row nowrap
+      justify-content: center
+      align-items: center
+      gap: 1rem
+      font-size: large
+      width: 100%
+
+      span:nth-of-type(1)
+        flex: 4
+      
+      span:nth-of-type(2)
+        flex: 1
+        display: flex
+        justify-content: center
+        i
+          font-size: 4rem
+      
+      span:nth-of-type(3)
+        flex: 1
+        display: flex
+        justify-content: center
+        i
+          font-size: 6rem
+    
+    .sub-header
+      display: none
+    
+    .game
+      flex: 1
+      display: flex
+      flex-flow: column nowrap
+      justify-content: center
+      align-items: center
+      min-width: 100%
+      min-height: 100vh
+
+      canvas
+        min-width: 50%
+        min-height: 50%
+        border-radius: 25px
+        box-shadow: 0rem 0rem 5rem 3.5rem orange
+
+    
+    footer
+      flex: 0
+      display: flex
+      flex-flow: row nowrap
+      justify-content: space-around
+      align-items: center
+      font-size: xx-large
+      flex-shrink: 0
+      width: 100%
+
+      i
+        font-size: 6rem
+
+
+
