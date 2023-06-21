@@ -12,7 +12,7 @@ export default function Game() {
     const loadingPercentage = Math.round(loadingProgression * 100);
     
     return (
-      <div className="container">
+      <div className="game">
         {isLoaded === false && (
           <div className="loading-overlay">
             <p>Loading... ({loadingPercentage}%)</p>
