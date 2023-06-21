@@ -6,7 +6,7 @@ export default function Header() {
           <h1>Go Kart Krazy!</h1>
         </span>
         <span>
-          <a href="https://diegofigueroa79.github.io/portfolio-frontend/" rel="noreferrer" target="_blank">
+          <a href="https://github.com/diegofigueroa79" rel="noreferrer" target="_blank">
             <i class="devicon-github-original-wordmark colored"></i>
           </a>
         </span>
@@ -18,7 +18,7 @@ export default function Header() {
       </header>
       <div className="sub-header">
         <span>
-          <a href="https://diegofigueroa79.github.io/portfolio-frontend/" rel="noreferrer" target="_blank">
+          <a href="https://github.com/diegofigueroa79" rel="noreferrer" target="_blank">
             <i class="devicon-github-original-wordmark colored"></i>
           </a>
         </span>
